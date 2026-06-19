@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 ;
 let listaAluno = [];
 function cadastrarAluno(nome, idade, serie) {
@@ -33,3 +31,4 @@ cadastrarAluno('Marcos', 12, 7);
 listarAlunos(listaAluno);
 buscarAluno('davi', listaAluno);
 buscarAluno('Maize', listaAluno);
+export {};
